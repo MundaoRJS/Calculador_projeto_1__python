@@ -48,7 +48,7 @@ tela_label.place(x=0, y=0)
 bot1 = Button(frame_corpo, command= lambda: Entrada_de_Valores('%'), text="%", width=10,height=3, font=('Ivy 13 bold') , relief=RAISED, overrelief=RIDGE )
 bot1.place(x=0 , y=0)
 
-bot2 = Button(frame_corpo, command= lambda: Entrada_de_Valores(''),text="₠", width=10,height=3, font=('Ivy 13 bold') , relief=RAISED, overrelief=RIDGE )
+bot2 = Button(frame_corpo, command= limpar_tudo,text="₠", width=10,height=3, font=('Ivy 13 bold') , relief=RAISED, overrelief=RIDGE )
 
 bot2.place(x=87, y=0)
 
@@ -56,7 +56,7 @@ bot3 = Button(frame_corpo, command= limpar_tudo,text="C", width=10,height=3, fon
 
 bot3.place(x=170, y=0)
 
-bot4 = Button(frame_corpo, command= lambda: Entrada_de_Valores(''),text="◁", width=11,height=3, font=('Ivy 13 bold') , relief=RAISED, overrelief=RIDGE )
+bot4 = Button(frame_corpo, command= limpar_tudo,text="◁", width=11,height=3, font=('Ivy 13 bold') , relief=RAISED, overrelief=RIDGE )
 
 bot4.place(x=250, y=0)
 
